@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body
+{
+	margin: 0;
+	padding: 0;
+	background-image: url(../img/bac1.jpg);	/* 背景图片 */
+	background-repeat: no-repeat;	/* 背景图片不重复 */
+	background-size:100% 100%;
+    -moz-background-size:100% 100%;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.inputText p,span{
+    color: white;
+}
+p{color: aliceblue;}
+#bigBox
+{
+	margin: 0 auto;	/* login框剧中 */
+	margin-top: 100px; /* login框与顶部的距离 */
+	padding: 20px 100px;	/* login框内部的距离(内部与输入框和按钮的距离) */
+	background-color: #00000090;	/* login框背景颜色和透明度 */
+	width: 500px;
+	height: 500px;
+	border-radius: 10px;	/* 圆角边 */
+	text-align: center;	/* 框内所有内容剧中 */
+}
